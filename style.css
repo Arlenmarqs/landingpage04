@@ -305,3 +305,73 @@ a {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+#cardstop {
+    background: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#cardstop h2 {
+    font-size: 32px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+#card-mid {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    position: relative;
+    text-align: left;
+}
+
+#card-mid p {
+    color: #555;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+#fotinha {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: right;
+    margin-left: 10px;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+span {
+    position: absolute;
+    bottom: -30px;
+    left: 15%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#botaoplay {
+    background-color: #00c191;
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
