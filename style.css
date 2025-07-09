@@ -391,4 +391,24 @@ a {
     gap: 60px;
     margin-bottom: 40px;
 }
+#destaques {
+    max-width: 260px;
+}
+
+#destaques h3 {
+    font-size: 40px;
+    color: #f8e9b9;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#destaques .label {
+    color: #f8e9b9;
+    margin-bottom: 15px;
+}
+
+#destaques p {
+    font-size: 15px;
+    line-height: 2;
+}
 
