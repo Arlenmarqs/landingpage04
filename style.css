@@ -370,3 +370,25 @@ a {
     border-radius: 50%;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+#numeros {
+    background-color: #384c7c;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#numeros h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+#status {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
